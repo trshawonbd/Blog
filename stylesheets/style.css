@@ -1,0 +1,13 @@
+.icon {
+  display: flex;
+}
+.icon img {
+  width: 10%;
+  background-color: red;
+  border-radius: 10%;
+}
+.icon-name {
+  color: brown;
+  margin-left: 16px;
+  margin-top: 36px;
+}
