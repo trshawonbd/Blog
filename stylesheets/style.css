@@ -1,3 +1,14 @@
+body {
+  background-color: #f3f1ff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: coral;
+  justify-content: space-between;
+  align-items: center;
+}
 .icon {
   display: flex;
 }
@@ -9,5 +20,25 @@
 .icon-name {
   color: brown;
   margin-left: 16px;
-  margin-top: 36px;
+  margin-top: 26px;
+}
+
+.navigation {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 16px;
+  margin-top: 16px;
+  padding-right: 2em;
+}
+.nav_list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.pro_pic {
+  margin-top: 16px;
 }
