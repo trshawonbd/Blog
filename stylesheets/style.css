@@ -11,6 +11,8 @@ body {
 }
 .icon {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icon img {
   width: 10%;
@@ -32,13 +34,151 @@ li {
   display: inline-block;
   margin-left: 16px;
   margin-top: 16px;
-  padding-right: 2em;
+  /* padding-right: 2em; */
 }
 .nav_list li a {
   text-decoration: none;
   color: black;
+  padding-right: 1.5em;
 }
 
 .pro_pic {
   margin-top: 16px;
+  margin-right: 15em;
+}
+
+/* Main section */
+
+.first_container {
+  width: 870px;
+  height: 679px;
+  top: 130px;
+  margin-left: 285px;
+  margin-right: 285px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 2px solid lightcoral;
+}
+
+.top_players {
+  margin-left: 33px;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+}
+
+.player_details {
+  display: flex;
+  align-items: center;
+}
+
+.players_img img {
+  width: 56px;
+  height: 56px;
+  margin-left: 30px;
+}
+
+.players_name {
+  margin-left: 16px;
+}
+
+hr {
+  border-color: #e5e5e5;
+  position: absolute;
+  width: 807px;
+  height: 0px;
+  left: 315px;
+  top: 410px;
+  bottom: 30px;
+}
+
+/* Blog CSS */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 26px;
+}
+
+.top_blogs {
+  margin-top: 110px;
+  margin-left: 33px;
+}
+
+.blog {
+  display: flex;
+}
+
+.blog_img img {
+  width: 177px;
+  height: 117px;
+  margin-left: 33px;
+}
+
+.blog_title,
+.course_title,
+.course_author {
+  margin-left: 16px;
+}
+
+.blog_author {
+  color: #562eff;
+}
+/* courses css */
+.second_section {
+  height: 450px;
+}
+.all_courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.latest_courses {
+  margin-top: 40px;
+  margin-left: 33px;
+}
+.course:hover {
+  border: 2px solid tomato;
+}
+
+.course_img:hover {
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out;
+}
+.course_img {
+  overflow: hidden;
+}
+.course_img img {
+  width: 224px;
+  height: 104px;
+  margin-left: 33px;
+}
+
+.course_title,
+.course_author,
+.fa-star ::before {
+  margin-left: 33px;
+}
+
+.fa-star.rate1 {
+  margin-left: 33px;
+}
+.ratings {
+  margin-left: 10px;
+}
+.last_line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-star,
+.fa-star-half-alt {
+  color: goldenrod;
+}
+.fa-clock {
+  color: tomato;
+  background-color: lightgrey;
+  margin-right: 10px;
 }
